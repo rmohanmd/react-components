@@ -10,17 +10,19 @@ const App = () => {
         author="Sam"
         timeAgo="Today at 2:00PM"
         message="Test 123"
-        avatarPoster="faker.image.avatar()"
+        avatarPoster={faker.image.avatar()}
       />
       <CommentDetail
         author="Alex"
         timeAgo="Today at 11:25AM"
         message="Love the design"
+        avatarPoster={faker.image.avatar()}
       />
       <CommentDetail
         author="Jane"
         timeAgo="Yesterday at 7:00PM"
         message="This is great!"
+        avatarPoster={faker.image.avatar()}
       />
     </div>
   );
