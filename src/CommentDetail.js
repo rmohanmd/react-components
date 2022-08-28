@@ -2,7 +2,6 @@ import React from "react";
 import { faker } from "@faker-js/faker";
 
 const CommentDetail = (props) => {
-  console.table(props);
   return (
     <div className="comment">
       <a href="/" className="avatar">
